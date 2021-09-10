@@ -3,21 +3,14 @@
 1. This link contains instructions for completing #1:  https://docs.google.com/document/d/1ACw6ILG_rk66ukkkS_84LWiH63hovGnEOKPNtcvRGlg/edit?usp=sharing
 
 2. GenBuzz 
-   * Using the requirements below, write a function that prints numbers from 1 to an upper limit.That upper limit should be passed into your function as a parameter.
-   * Create variable `myNumber`
-   * Check that the value of the `myNumber` is of type `number`
-   * If `myNumber` is not a number, print 'This is not a number' to the console.
-   * If value of `myNumber` is a multiple of 3 print 'Gen' to the console
-   * If value of `myNumber` is a multiple of 5 print 'Buzz' to the console
-   * If the value of `myNumber` is a multiple of both 3 and 5 (ex. 15) print GenBuzz to the console
-   * If the value of `myNumber` is any other number print the value of `myNumber` to the console.
-   * Reference Codecademy lessons: Introduction- Arithmetic Opertaors, Conditional Statements lessons 3, 4, 5,and 9 
+   * Using the Instructions below, write a function that prints numbers from 1 to an upper limit.That upper limit should be passed into your function as a parameter.
+    *   Ex. genBuzz(15) should print the genBuzz pattern described below from 1 to the upper limit of 15.
+   * Instructions: For numbers from 1 to an upper limit (inclusive), print 'Gen' to the console if the number is a multiple of 3, print 'Buzz' if it is a multiple 5, print 'GenBuzz' if it a multiple of both 3 and 5. Otherwise, print the number to the console. Be sure to check that number your `upperLimit` is of type `number`.
 
 3. E-Commerce Item list
-    * Using the requiremets below to create a function that takes in an item and prints the price to the console.
+    * Use the requiremets below to create a function that takes in an item and prints the price to the console.
     * Use a swtich statement to print the price of the each item in the store to the console.
-    * Ex. If the value of the variable is 'shoes' then, the statement `Shoes are $50` should be printed to the console. 
-    * Reference: Codecademy lesson 10
+    * Ex. `itemList('shoes')` should print `Shoes are $50` to the console
 
     Items: 
      * Shoes- $50
